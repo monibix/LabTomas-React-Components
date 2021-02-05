@@ -5,7 +5,7 @@ import {Footer} from '../components/Footer/Footer';
 
 export function Main({valor}) {
     return (
-        <div>
+        <div className="main">
             <Navbar navbar={valor}/>
             <Hero hero={valor}/>
             <Body body={valor}/>

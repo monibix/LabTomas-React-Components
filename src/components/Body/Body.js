@@ -1,3 +1,5 @@
+import './Body.css'
+
 export function Body({body}) {
     return (
         <div className="body">
@@ -6,7 +8,7 @@ export function Body({body}) {
                 <UtilsList utilsList={body.body.utilsSection.cards} />
             </div>
             <div className="developers-section">
-                <h2>{}</h2>
+                <h2>{body.body.developersSection.desctionDescription}</h2>
                 <DevelopersSection devSect={body.body.developersSection.developers}/>
             </div>
         </div>
@@ -14,9 +16,8 @@ export function Body({body}) {
 }
 
 function UtilsList({utilsList}) {
-    //console.log("util", utilsList )
     return (
-        <div> 
+        <div className="utils-card"> 
             <div className="utilsList-title">
                 { utilsList.map((item, idx) => {
                     return <h4 key={idx}>{item.utilName}</h4>
@@ -42,7 +43,6 @@ function UtilsList({utilsList}) {
 }
 
 function DevelopersSection({devSect}) {
-    //console.log("util", utilsList )
     return (
         <div> 
             <div className="devSect-title">

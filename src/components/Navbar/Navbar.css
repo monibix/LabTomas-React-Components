@@ -1,0 +1,44 @@
+.navbar{
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.logo img {
+    width: 5vw;
+    padding: 0.75vw 2vw;
+    
+}
+
+.title {
+    color: #f1f1f9;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.links {
+    margin: 0 auto;
+}
+.links ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: -100px;
+}
+.links ul li {
+    list-style: none;
+    padding: 0px 7vw;
+}
+.links ul a {
+    text-decoration: none;
+    color: #f1f1f9;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.links ul a:hover {
+    color: #61dafb;
+    text-transform: uppercase;
+    font-weight: 900;
+}

@@ -1,10 +1,11 @@
+import './Navbar.css'
 export function Navbar ({navbar}) {
     return (
         <div className="navbar">
-            <div>
+            <div className="logo">
                 <img src={navbar.navbar.logo.src} alt={navbar.navbar.logo.alt}/>
             </div>
-            <div>
+            <div className="title">
                 {navbar.navbar.title}
             </div>
             <div className="links">
@@ -20,7 +21,7 @@ function NavList({links}) {
         <ul>
             {            
                 links.map((item, idx) => {
-                return <li key={idx}>{item.label}</li>
+                return <li key={idx}><a href={item.to}>{item.label}</a></li>
             })}
         </ul>
     )

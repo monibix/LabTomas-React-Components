@@ -1,3 +1,5 @@
+import './Footer.css';
+
 export function Footer({footer}) {
     return (
         <div className="footer">
@@ -8,7 +10,7 @@ export function Footer({footer}) {
                 <p>{footer.footer.contact.address.street}</p>
                 <p>{footer.footer.contact.address.state}</p>
             </div>
-            <div className="links">
+            <div className="footer-links">
                 <Links links={footer.footer.links} />
             </div>
         </div>

@@ -1,0 +1,26 @@
+.footer {
+    background-color: #282c34;
+    text-align: center;
+    border: none;
+    padding-top: 2vw;
+    color: #f1f1f9;
+}
+
+.footer-links div {
+    background-color: #61dafb;
+    padding: 5px 0px;
+}
+
+.footer-links div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #282c34;
+    font-size: 0.75em;
+    font-weight: 900;
+    padding: 0 7vw;
+    border-bottom: 1px solid #282c34;
+}
+
+.footer-links div a:hover {
+    font-size: 1em;
+}

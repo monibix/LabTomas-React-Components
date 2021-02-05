@@ -1,0 +1,18 @@
+.body {
+    background-color: #f1f1f9;
+    padding: 1vw;
+    text-align: center;
+}
+
+.body h2 {
+    text-transform: uppercase;
+    color: #282c34;
+    padding: 3vw 0 0.5vw 0;
+}
+.utilsList-img img {
+    width: 10vw;
+}
+
+.devSect-img img {
+    width: 20vw;
+}
